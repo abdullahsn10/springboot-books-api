@@ -1,0 +1,6 @@
+com\abdul\postdb\controllers\BookControllerIntegrationTest.class
+com\abdul\postdb\controllers\AuthorControllerIntegrationTest.class
+com\abdul\postdb\TestDataUtil.class
+com\abdul\postdb\repositories\AuthorEntityRepositoryIntegrationTest.class
+com\abdul\postdb\repositories\BookEntityRepositoryIntegrationTest.class
+com\abdul\postdb\BooksApiApplicationTests.class

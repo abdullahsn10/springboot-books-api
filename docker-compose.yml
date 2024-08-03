@@ -1,0 +1,10 @@
+version: '3.1'  # Specifies the version of Docker Compose file syntax to use.
+
+services:
+  db:  # Defines a service named 'db'.
+    image: postgres  # Uses the official PostgreSQL image from Docker Hub.
+    ports:
+      - "5432:5432"  # Maps port 5432 on the host to port 5432 on the container.
+    restart: always  # Ensures that the container restarts automatically if it stops.
+    environment:
+      POSTGRES_PASSWORD: changemeinprod!  # Sets an environment variable for the PostgreSQL password.
