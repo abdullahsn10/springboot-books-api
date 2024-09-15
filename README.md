@@ -1,6 +1,4 @@
-Here’s a sample README file for your project that you can use for GitHub:
 
----
 
 # Book and Author Management System API
 
